@@ -44,5 +44,6 @@ Random Forest – With the sparsity associated with the data, I thought that thi
 
 # Model Performance  
  The Random Forest model far outperformed the other approaches on the test and validation sets. 
-Accuracy: 78% 
+Accuracy: 78%  
+
 Accuracy after tuning: 81% 

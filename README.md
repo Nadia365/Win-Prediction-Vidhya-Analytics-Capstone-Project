@@ -15,12 +15,16 @@ Python v 3
 
 # Libraries used:
 
-pandas
+pandas 
+
 numpy
+
 matplotlib.pyplot
+
 sklearn
+
 # Data Cleaning 
- -Remove duplicated features  
+- Remove duplicated features  
 - Add missed values in Client Category to the ‘Others’ category 
 - One hot encoding for all categorical variables except for  VP names
 - Manager Name was identified as highly cardinalso, decided not to go with one hot encoding.
@@ -35,7 +39,7 @@ sklearn
 # Model Building 
  I also split the data into train and tests sets with a test size of 0%.
 
-I different models and evaluated them using accuracy. 
+I used different models and evaluated them using accuracy. 
 Random Forest – With the sparsity associated with the data, I thought that this would be a good fit. it is robust to outliers and prone to overfitting plus gives the best accruacy of all tested models
 
 # Model Performance  
